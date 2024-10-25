@@ -134,7 +134,7 @@ public class TextAdventure
  {
   console.setImage("kitchen.jpg");
   System.out.println("you walk into the room to see a bright kitchen. the oven is on and there is a woman who apears to be baking something");
-  System.out.println("claire: hi, my names claire, you're y/n right?\nclaire:why did I know that, well why not?\nclaire:i'm bakking a cake right now, might as well find something to do right?");
+  System.out.println("claire: hi, my names claire, you're " +ourHero.getName()+" right?\nclaire:why did I know that, well why not?\nclaire:i'm bakking a cake right now, might as well find something to do right?");
   System.out.println("what are you going to say:\na.you're not even concerned?\nb.i mean, whatever you want\nc.say nothing\n: ");
   String ask= inScanner.nextLine();
   if((ask.equals("a"))||(ask.equals("A"))){
